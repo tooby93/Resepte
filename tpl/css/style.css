@@ -1,0 +1,553 @@
+body{
+    background-color: #F3FFF2;
+    font-family: "PT Sans",Verdana,Arial,sans-serif;
+}
+
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15);
+    background-color: #f6f5f3;
+    width: 970px;
+}
+
+
+
+
+.categories{
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.categories .col-md-2{
+    font-size: 11px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.categories .col-md-2 img{
+    margin-bottom: 6px;
+}
+
+
+
+
+.container .col-md-2 .sidebar-module{
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+    position: relative;
+    margin-bottom: 10px;
+
+}
+
+.container .col-md-2 .sidebar-module .sidebar-module-name{
+    position: absolute;
+    left: 0;
+    background-color: #78B37F;
+    top: 4px;
+    padding-top: 1px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 1px;
+    color: #fff;
+}
+
+.container .col-md-2 .sidebar-module .links .h{
+    display: none;
+}
+
+.container .col-md-2 .sidebar-module .links{
+    line-height: 25px;
+    margin-top: 17px;
+}
+
+.container .col-md-2 .sidebar-module .links .more{
+    margin-top: 8px;
+    text-align: center;
+}
+
+.sidebar-module .links a.active{
+    font-weight: bold;
+}
+
+.sidebar-module .links button.close{
+    float: none;
+}
+
+
+
+
+
+.header{
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 15px;
+
+}
+
+
+
+.search-form{
+    padding-top: 8px;
+}
+
+
+
+.search-form input{
+    border-radius: 0;
+}
+
+.search-form .user{
+    border-radius: 0;
+    padding: 0;
+    float: right;
+}
+.search-form .user img{
+    width: 35px;
+    margin: 4px;
+    border-radius: 40px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.search-form .user .name{
+    padding: 10px;
+    float: left;
+}
+
+.advanced-search{
+    display: none;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+    z-index: 1;
+    top: 46px;
+    width: 785px;
+    padding: 20px;
+}
+
+.recipe{
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+    margin-bottom: 20px;
+    position: relative;
+    background-color: #fff;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+}
+
+.recipe .image{
+    width: 17%;
+    text-align: center;
+}
+
+.dropdown-menu{
+    text-align: left;
+    margin-top: 0px;
+    margin-left: -1px;
+    border-radius: 0;
+    right: 0;
+    left: auto;
+}
+
+h3{
+    margin-top: 0;
+}
+
+.recipe a{
+    color: #000;
+}
+
+.recipe .image{
+    float: left;
+}
+
+.recipe img{
+    width:150px;
+}
+
+.recipe .desc{
+    float: left;
+    padding-left: 20px;
+    font-size: 21px;
+    width: 80%;
+}
+
+.recipe .ingredients{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.recipe .ingredients .list{
+    line-height: 22px;
+}
+
+.recipe .ingredients .list a:hover{
+    text-decoration: none;
+}
+
+.recipe .ingredients .list .label{
+    cursor: pointer;
+}
+
+.recipe .btn-group{
+
+}
+
+.recipe .btn-group .btn{
+    border-radius: 0;
+}
+
+.recipe .btn-group .btn-info{
+    width: 141px;
+}
+
+.recipe .btn-group .btn-danger{
+    width: 60px;
+}
+
+.recipe .btn-group{
+    margin-top: 10px;
+}
+
+.recipe .btn-group .btn-default{
+    color: #535353
+}
+
+.ing_filter{
+    margin-bottom: 10px;
+}
+
+.ing_filter a{
+    color: #fff;
+}
+
+.recipe.view .ingredients{
+    margin-top: 10px;
+}
+
+.recipe.view .photos img{
+    width: 75px;
+    height: 75px;
+    color: #F8F8F8;
+}
+
+.recipe.view .photos a:hover{
+    text-decoration: none;
+}
+
+.recipe.view .photos{
+    background-color: #eee;
+    padding: 15px;
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+.recipe.view .instructions{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.recipe.view .instructions .t{
+    margin-top: 7px;
+    font-size: 16px;
+}
+
+.recipe.view .instructions .ins_image{
+    float: left;
+    margin-right: 20px;
+}
+
+.recipe.view .instructions .ins_image img{
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    width: 110px;
+    margin-bottom: 15px;
+}
+
+.recipe.view .instructions p{
+    clear: both;
+}
+
+.recipe.view .desc{
+    float: left;
+    padding-left: 20px;
+    font-size: 21px;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.recipe.view .source{
+    font-style: italic;
+    font-size: 11px;
+    margin-top: 10px;
+    margin-left: -12px;
+}
+
+.recipe.view .btn-success, .recipe a.btn-success, .recipe a.btn-danger{
+    color: #fff;
+}
+
+.shopping_list .name.through{
+    text-decoration: line-through;
+}
+
+.search-form .count{
+    position: absolute;
+    top: 13px;
+    right: 12px;
+    color: #979797;
+    width: 250px;
+    text-align: right;
+}
+
+
+
+ul.token-input-list{
+    border: 1px solid #ccc;
+}
+
+.btn-group a{
+    border-radius: 0;
+}
+
+.recipe.view .time{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.recipe.view .time td{
+    text-align: center;
+    padding: 10px;
+    border-right: 1px dashed #ddd;
+}
+
+.recipe.view .time td.last{
+    border-right: none;
+    color: #06C480;
+}
+
+
+.recipe.view .time .small{
+    font-size: 13px;
+    color: #9c9c9c;
+}
+
+.recipe.view .time .name{
+    font-size: 14px;
+    color: #000;
+}
+
+.recipe.view .nutrition{
+    margin-top: 23px;
+    font-size: 18px;
+}
+
+.recipe.view .nutrition table{
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.recipe.view .nutrition .progress{
+    width: 140px;
+    float: left;
+    margin-left: 25px;
+}
+
+.recipe.view .nutrition .percent{
+    font-size: 13px;
+    color: #9c9c9c;
+    float: right;
+}
+
+.recipe.view .nutrition .small{
+    font-size: 13px;
+    color: #9c9c9c;
+    margin-top: -15px;
+    text-align: right;
+    font-style: italic;
+}
+
+.recipe.view .small_title{
+    font-size: 12px;
+    color: #A8A8A8;
+    margin-top: -2px;
+}
+
+.recipe.view .small_title a{
+    color: #A8A8A8;
+}
+
+.footer{
+    margin: auto;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    width: 970px;
+}
+
+.footer a.active{
+    font-weight: bold;
+}
+
+.auth-modal{
+    text-align: center;
+}
+
+.auth-modal .t{
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+
+.auth-modal .social_networks{
+    width: 270px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.auth-modal .sn{
+    cursor: pointer;
+    background: #4c75a3;
+    width: 130px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.auth-modal .sn.fb{
+    background: #3b5998;
+}
+
+.auth-modal .sn.fb{
+    margin-right: 0;
+}
+
+.auth-modal .sn .img{
+    float: left;
+    margin-left: 3px;
+}
+
+.auth-modal .sn .text{
+    float: left;
+    margin-left: 5px;
+    color: #fff;
+    padding-top: 6px;
+}
+
+.bg-bottom{
+    position: fixed;
+    z-index: -1;
+    bottom:0;
+    left: 0;
+    height: 1200px;
+    right: 0;
+}
+
+.holiday-halloween .footer a{
+    color: #fff;
+}
+
+.holiday-halloween .footer{
+    color: #fff;
+}
+
+ul.token-input-list, div.token-input-dropdown{
+    width: 305px;
+}
+
+.sidebar-module form{
+    margin-top: 25px;
+}
+
+.ajax-loader{
+    position: absolute;
+    left: 410px;
+    z-index: 9;
+    display: none;
+}
+
+.sidebar-module div button{
+    display: none;
+}
+
+.table-shopping{
+    margin-top: 10px;
+}
+
+.related .recipe img{
+    width: 100%;
+    border-radius: 6px;
+}
+
+.related .recipe .desc{
+    font-size: 14px;
+    width: 80%;
+    line-height: 16px;
+}
+
+.related .recipe .image{
+    width: 20%;
+
+}
+
+.recipe .share{
+    padding: 10px;
+    background: #f6f6f6;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-top: 30px;
+    font-size: 19px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: auto;
+        margin-top: 0;
+    }
+
+    .header .col-md-3{
+        text-align: center;
+    }
+
+    .categories .col-md-2{
+        width: 100%;
+        clear: left;
+        border-top: 1px solid #ddd;
+    }
+
+    .categories .col-md-2 img{
+        float: left;
+    }
+
+    .categories .col-md-2 div{
+        float: left;
+        margin-left: 20px;
+        font-size: 20px;
+        padding-top: 9px;
+    }
+
+    .footer{
+        width: 90%;
+    }
+
+    ..recipe.view .nutrition .progress{
+        width: 60px;
+    }
+}

@@ -1,0 +1,36 @@
+<?php
+$_lang_array = array(
+    'Категории' => 'Categories',
+    'Поиск рецепта' => 'Search',
+    'Инструкция' => 'Directions',
+    'Источник' => 'Source',
+    'Найти' => 'Search',
+    'Ингредиенты' => 'Ingredients',
+    'Удалить фильтр' => 'Remove filter',
+    'Назад' => 'Previous',
+    'Вперед' => 'Next',
+    'Рецепты не найдены. Попробуйте изменить настройки фильтра.' => 'Recipes not found. Try to change filter settings. ',
+    'Показать еще' => 'More',
+    'Расширенный поиск' => 'Advanced search',
+    'Закрыть расширенный поиск' => 'Close',
+    'Список избранного пуст.' => 'Favorites is empty.',
+    'Войти' => 'Sign in',
+    'Выйти' => 'Sign out',
+    'Войти на сайт' => 'Sign in',
+    'Выберите социальную сеть для авторизации' => 'Choose social network for authorization',
+    'Вконтакте' => 'Vkontakte',
+    'Избранное' => 'Favorites',
+
+    'Перейти на версию для компьютеров' => 'Go to full version',
+    'Установить из Google Play' => 'Install from Google Play',
+    'Установи приложение Resepte на своё Android устройство для более удобного доступа к рецептам' => 'Install Resepte application on your Android device for easy access to recipes',
+
+
+    'Список покупок' => 'Shopping list',
+    'Добавить' => 'Add',
+    'Удалить выбранные' => 'Remove Checked',
+    'Список пуст' => 'List is empty',
+    'Список пуст' => 'List is empty',
+    'Рецепты' => 'Recipes',
+    'Понравился рецепт?' => 'Do you like the recipe?',
+);
